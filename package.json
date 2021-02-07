@@ -1,0 +1,19 @@
+{
+  "name": "tinify-local",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index",
+    "clean": "rimraf ./input/* ./output/*",
+    "clean-start": "npm run clean && npm run start"
+  },
+  "author": "cantcool",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "chokidar": "^3.5.1",
+    "rimraf": "^3.0.2",
+    "tinify": "^1.6.0-beta.2"
+  }
+}
